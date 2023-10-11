@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../Footer/Header.module.css'
+import styles from '../Header/Header.module.css'
 
 
 
