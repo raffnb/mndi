@@ -1,0 +1,84 @@
+.main{
+    display: grid;
+    width: 100%;
+    justify-content: center;   
+    height: 100vh;
+    background-image:url('/public/main-qimg-8219ae92d4669e2a9e1100e8dfe9f3f4.gif');
+    
+    
+    }
+    
+    
+    .label{
+    
+        align-content: center;
+        
+        
+    
+            
+            
+            }   
+    
+            .mainInput{
+                height: 52px;
+                width: 380px;
+                border: 0;
+                padding-left: 10px;
+                background-color: #f8f8f8;
+                margin: 20px;
+                font-size: 26px;
+                border-radius: 10px;
+            }
+    
+    .btnMain{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+        position: relative;
+        margin-left: -70px;
+        margin-top: 8px;
+        border: 0;
+    
+        
+    }
+    
+    .imgMain{
+    
+        margin-bottom: -12px;
+    
+        width: 30px;
+        align-items: center;
+        cursor: pointer;
+    
+    }
+    
+    .card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        font-size: 22px;
+    
+    
+        .imgcard{
+            width: 250px;
+            margin-right: 2.4rem;
+        }
+    
+        .uList{
+            list-style-type: none;
+            text-align: start;
+            font-weight: 400;
+        
+     
+        
+        }
+    
+        .uList li{
+            margin: 10px;
+        }
+    
+    
+    }

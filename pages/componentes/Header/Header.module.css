@@ -1,0 +1,19 @@
+.headerP{
+    display: flex;
+    justify-content: space-between  ;
+    text-align: center;
+    background-color: #53917E;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    padding: 2.2rem;
+    color: aliceblue;
+
+   
+    .imgHeader{
+        width: 50px;      
+    
+       }
+
+
+}
