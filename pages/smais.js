@@ -1,17 +1,18 @@
-import StyleSmais from '../styles/smais.module.css'
+import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 import Footer from './componentes/Footer/Footer'
 import Header from './componentes/Header/Header'
 import Main from './componentes/Main/Main'
-import SearchHome from './componentes/SearchHome/SearchHome'
+import Search from './componentes/Search/Search'
 
 export default function Smais(){
     return(
-        <div>
+        <section className={styles.sectionPrincipal}>
         <Header/>
-        <SearchHome/>
+        <Search/>
         <Main/>
         <Footer/>
-        </div>
+        </section>
     
     )
 }

@@ -1,27 +1,37 @@
-.main{
-    display: grid;
+/*.main{
+    display: flex;
     width: 100%;
     justify-content: center;   
     height: 100vh;
     background-image:url('/public/main-qimg-8219ae92d4669e2a9e1100e8dfe9f3f4.gif');
-    
+    align-items: center;
     
     }
-    
+    */
+
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
 
     
     .card{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 500px;
-        font-size: 22px;
+        height: 31.25rem;
+        font-size: 1.2em;
+        background-color: #6191833b;
+
     
     
         .imgcard{
             width: 250px;
-            margin-right: 2.4rem;
+            margin-left: 1rem;
+            
         }
     
         .uList{
@@ -29,12 +39,10 @@
             text-align: start;
             font-weight: 400;
         
-     
-        
         }
     
         .uList li{
-            margin: 10px;
+            margin-top: 10px;
         }
     
     

@@ -1,7 +1,11 @@
+   
+    
     
     .label{
-    
-        align-content: center;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
         
     
@@ -14,7 +18,7 @@
                 width: 380px;
                 border: 0;
                 padding-left: 10px;
-                background-color: #f8f8f8;
+                background-color: #f0f0f0;
                 margin: 20px;
                 font-size: 26px;
                 border-radius: 10px;
@@ -27,7 +31,6 @@
         cursor: pointer;
         position: relative;
         margin-left: -70px;
-        margin-top: 8px;
         border: 0;
     
         
